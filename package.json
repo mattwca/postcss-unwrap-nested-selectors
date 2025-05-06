@@ -1,0 +1,19 @@
+{
+  "name": "postcss-unwrap-nested-selectors",
+  "version": "1.0.0",
+  "description": "A small PostCSS plugin to unwrap nested CSS selectors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattwca/postcss-unwrap-nested-selectors.git"
+  },
+  "author": "Matt Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattwca/postcss-unwrap-nested-selectors/issues"
+  },
+  "homepage": "https://github.com/mattwca/postcss-unwrap-nested-selectors#readme"
+}
