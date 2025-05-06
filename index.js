@@ -66,7 +66,7 @@ const buildFlattenedSelectors = (rule) => {
  *
  * This plugin essentially flattens nested selectors in a manner similar to SASS.
  */
-const unwrapNestedSelectors = () => ({
+export const unwrapNestedSelectors = () => ({
   postcssPlugin: 'unwrap-nested-selectors',
   OnceExit(root) {
     // Iterate through all style rules in the AST.
@@ -97,4 +97,3 @@ const unwrapNestedSelectors = () => ({
   },
 });
 
-module.exports = { unwrapNestedSelectors };
